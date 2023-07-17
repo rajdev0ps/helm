@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: nginx-configmap
+data:
+  index.html: |
+    <h2 style="color: #731768;">
+    Production App version 7
+    </h2>
